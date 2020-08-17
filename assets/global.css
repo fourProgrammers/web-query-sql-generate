@@ -1,0 +1,24 @@
+/* Basic Css grid definition */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 0.8fr 1fr;
+    grid-template-rows: 0.7fr 1.6fr 0.7fr;
+    gap: 1px 1px;
+    grid-template-areas: ". Function-select Function-select ." ". Form-general Form-general ." "Query-generated Query-generated  Query-generated  Query-generated ";
+  }
+  
+    .Function-select { 
+      border: solid black;
+      grid-area: Function-select; 
+    }
+  
+    .Form-general { 
+        border: solid black;
+        grid-area: Form-general;
+    }
+  
+    .Query-generated  {
+        border: solid black;
+        grid-area: Query-generated ; 
+    }
+
