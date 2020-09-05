@@ -43,12 +43,13 @@ div .HeaderMenu .HeaderCard .CardTitle {
 div .HeaderMenu .HeaderCard .CardItens {
     display: flex;
     flex-direction: column;
+
 }
 
 div .HeaderMenu .HeaderCard .CardItem {
+    font-size: 1rem;
     text-align: left;
-
-    font-size: 0.9rem;
+    margin-left: 4px;
     color: #ffb86c;
 }
 
