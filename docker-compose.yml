@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  react-exemple:
+    container_name: web-query-sql-generate
+    build:
+      context: ./react-ui
+      dockerfile: Dockerfile
+    volumes:
+      - './react-ui:/app'
+      - '/app/node_modules'
+    ports:
+      - 3000:3000
+    environment:
+      - CHOKIDAR_USEPOLLING=true
