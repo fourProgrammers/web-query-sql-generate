@@ -15,8 +15,8 @@ export default (props) => {
                         Database operations
                     </div>
                     <div className="CardItens">
-                        <a className="CardItem" href="/bd/create">Create</a>
-                        <a className="CardItem" href="/bd/drop">Drop</a>
+                        <a className="CardItem" href="/db/create">Create</a>
+                        <a className="CardItem" href="/db/drop">Drop</a>
                     </div>
                 </div>
 
