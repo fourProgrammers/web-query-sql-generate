@@ -1,4 +1,6 @@
 body {
+  margin: 0px;
+  padding: 0px;
   background: #282a36;
   color: #6272a4;
   font-family: 'Roboto', sans-serif;
@@ -13,7 +15,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: normal;
   color: #50fa7b;
 }

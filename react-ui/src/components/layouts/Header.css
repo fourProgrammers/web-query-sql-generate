@@ -1,0 +1,54 @@
+div .Header {
+    margin: 10px;
+    padding: 10px;
+    border: #6272a4 1px solid;
+    border-radius: 20px;
+    background: #44475a;
+}
+.Header >h2 {
+    margin: 0px;
+}
+div .HeaderMenu {
+    color: #bd93f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 700px) {
+    div .HeaderMenu {
+        color: #bd93f9;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  div .HeaderMenu .HeaderCard .CardTitle {
+    border-bottom: #6272a4 1px solid;
+    padding: 3px;
+    text-align: left;
+    flex: 1;
+}
+  
+
+div .HeaderMenu .HeaderCard {
+    max-width: 300px;
+}
+
+div .HeaderMenu .HeaderCard .CardTitle {
+    border-bottom: #6272a4 1px solid;
+    padding: 3px;
+    text-align: left;
+}
+
+div .HeaderMenu .HeaderCard .CardItens {
+    display: flex;
+    flex-direction: column;
+}
+
+div .HeaderMenu .HeaderCard .CardItem {
+    text-align: left;
+
+    font-size: 0.9rem;
+    color: #ffb86c;
+}
+
