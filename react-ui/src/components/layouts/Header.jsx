@@ -15,8 +15,8 @@ export default (props) => {
                         Database operations
                     </div>
                     <div className="CardItens">
-                        <a className="CardItem" href="#bdCreate">Create</a>
-                        <a className="CardItem" href="#bdDrop">Drop</a>
+                        <a className="CardItem" href="/bd/create">Create</a>
+                        <a className="CardItem" href="/bd/drop">Drop</a>
                     </div>
                 </div>
 
@@ -26,11 +26,11 @@ export default (props) => {
                     </div>
                     <div className="CardItens">
                         
-                        <a className="CardItem" href="#bdCreate">Create</a>
-                        <a className="CardItem" href="#bdDrop">Drop</a>
-                        <a className="CardItem" href="#bdDrop">Insert</a>
-                        <a className="CardItem" href="#bdDrop">Update</a>
-                        <a className="CardItem" href="#bdDrop">Alter</a>
+                        <a className="CardItem" href="/tb/create">Create</a>
+                        <a className="CardItem" href="/tb/drop">Drop</a>
+                        <a className="CardItem" href="/tb/insert">Insert</a>
+                        <a className="CardItem" href="/tb/update">Update</a>
+                        <a className="CardItem" href="/tb/alter">Alter</a>
                     </div>
                 </div>
                 
@@ -39,8 +39,8 @@ export default (props) => {
                         Select operations
                     </div>
                     <div className="CardItens">
-                        <a className="CardItem" href="#bdCreate">Simple</a>
-                        <a className="CardItem" href="#bdDrop">With props</a>
+                        <a className="CardItem" href="/sl/simple">Simple</a>
+                        <a className="CardItem" href="/sl/props">With props</a>
                     </div>
                 </div>
             </div>
