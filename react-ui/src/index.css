@@ -1,16 +1,29 @@
 body {
-  background: #383a59;
-  color: #f8f8f2;
+  background: #282a36;
+  color: #6272a4;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
   text-align: center;
   font-size: 1.4rem;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 3.5rem;
   font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
   line-height: normal;
   color: #50fa7b;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #f1fa8c;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #ffb86c;
 }
