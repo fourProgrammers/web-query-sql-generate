@@ -1,12 +1,16 @@
 body {
-  background: #35404F;
-  color: #fff;
-  font-family: 'Oswald';
-  font-weight: 300;
+  background: #383a59;
+  color: #f8f8f2;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
-h2, h3 {
-  margin: 0; 
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: normal;
+  color: #50fa7b;
 }

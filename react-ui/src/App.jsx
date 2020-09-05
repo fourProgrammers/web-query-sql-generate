@@ -5,6 +5,6 @@ import './App.css';
 export default (props) => (
 
   <div>
-    <h2>Vamo de teste fio</h2>
+    <h1>Dracula theme colors</h1>
   </div>
 );
