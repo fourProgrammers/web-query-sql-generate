@@ -3,6 +3,8 @@ import React from 'react';
 export default (props) => {
 
     return (
-        <h1>Basic DB</h1>
+        <div>
+            <h3>Operations in Database</h3>
+        </div>
     )
 }
