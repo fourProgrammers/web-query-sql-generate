@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+ 
 
 import './Header.css';
 
@@ -8,15 +10,15 @@ export default (props) => {
     return (
         <div className="Header">
             <h2>SQL Query Generator</h2>
-
+            
             <div className="HeaderMenu">
                 <div className="HeaderCard DB">
                     <div className="CardTitle">
                         Database operations
                     </div>
                     <div className="CardItens">
-                        <a className="CardItem" href="/db/create">Create</a>
-                        <a className="CardItem" href="/db/drop">Drop</a>
+                        <Link className="CardItem" to="/db/create">Create</Link>
+                        <Link className="CardItem" to="/db/drop">Drop</Link>
                     </div>
                 </div>
 
@@ -26,11 +28,11 @@ export default (props) => {
                     </div>
                     <div className="CardItens">
                         
-                        <a className="CardItem" href="/tb/create">Create</a>
-                        <a className="CardItem" href="/tb/drop">Drop</a>
-                        <a className="CardItem" href="/tb/insert">Insert</a>
-                        <a className="CardItem" href="/tb/update">Update</a>
-                        <a className="CardItem" href="/tb/alter">Alter</a>
+                        <Link className="CardItem" to="/tb/create">Create</Link>
+                        <Link className="CardItem" to="/tb/drop">Drop</Link>
+                        <Link className="CardItem" to="/tb/insert">Insert</Link>
+                        <Link className="CardItem" to="/tb/update">Update</Link>
+                        <Link className="CardItem" to="/tb/alter">Alter</Link>
                     </div>
                 </div>
                 
@@ -39,8 +41,8 @@ export default (props) => {
                         Select operations
                     </div>
                     <div className="CardItens">
-                        <a className="CardItem" href="/sl/simple">Simple</a>
-                        <a className="CardItem" href="/sl/props">With props</a>
+                        <Link className="CardItem" to="/sl/simple">Simple</Link>
+                        <Link className="CardItem" to="/sl/props">With props</Link>
                     </div>
                 </div>
             </div>
