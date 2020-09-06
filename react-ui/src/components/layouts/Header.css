@@ -1,8 +1,8 @@
 div .Header {
     margin: 10px;
     padding: 10px;
-    border: #6272a4 1px solid;
-    border-radius: 20px;
+    border: #6272a4 3px solid;
+    border-radius: 10px;
     background: #44475a;
 }
 .Header >h2 {
@@ -52,4 +52,3 @@ div .HeaderMenu .HeaderCard .CardItem {
     margin-left: 4px;
     color: #ffb86c;
 }
-

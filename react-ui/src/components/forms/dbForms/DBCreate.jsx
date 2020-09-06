@@ -18,6 +18,7 @@ export default (props) => {
 
     return (
         <CardForm title="Database Create" result={result}>
+            <label>Nome da Database</label>
             <input type="text" onChange={alterDbName} value={dbName}/>
             <button onClick={subResult}>Submeta</button>
         </CardForm>

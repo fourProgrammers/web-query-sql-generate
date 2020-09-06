@@ -1,0 +1,76 @@
+.Card {
+    overflow: hidden;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    border: #6272a4 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card .CardTitle {
+    color: #f1fa8c;
+    border-bottom: #6272a4 1px solid;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center ;
+}
+
+.Card .CardForm {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    padding: 20px 0px;
+}
+
+.Card .CardForm >button {
+    margin-top: 30px;
+    padding: 10px;
+    font-family: verdana;
+    font-size: 1.5rem;
+    color: #282a36;
+    background: #50fa7b;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.Card .CardForm >label {
+    color: #f8f8f2;
+    font-size: 1.3rem;
+    text-align: left;
+    
+}
+
+.Card .CardForm >input {
+    border-bottom: #6272a4 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #44475a;
+    color: #f8f8f2;
+    font-size: 1.3rem;
+    
+}
+
+.Card .CardResult {
+    border: #44475a 3px solid;
+    background: #f8f8f2;
+    padding: 0px;
+    
+}
+
+.Card .CardResult .ResultTitle {
+    margin: 0px;
+    padding: 0px;
+    background: #012456;
+    border: #012456 3px solid;
+    color: #f8f8f2;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.Card .CardResult .ResultContent {
+    color: #000;
+    text-align: left;
+    padding-left: 5px;
+}
