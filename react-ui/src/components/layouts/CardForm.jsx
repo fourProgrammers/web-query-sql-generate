@@ -19,7 +19,7 @@ export default (props) => {
                     Sql Code output
                 </div>
                 <div className="ResultContent">    
-                <ArrowForwardIosIcon /> { props.result }
+                <ArrowForwardIosIcon />{ props.result }
                 </div>
             </div>
         </div>
